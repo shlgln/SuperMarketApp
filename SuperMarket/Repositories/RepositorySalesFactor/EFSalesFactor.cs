@@ -18,5 +18,10 @@ namespace SuperMarket.Repositories.RepositorySalesFactor
         {
             _context.Add(salesFactor);
         }
+
+        public List<SaleFactors> GetAll()
+        {
+            return _context.SaleFactors.ToList();
+        }
     }
 }

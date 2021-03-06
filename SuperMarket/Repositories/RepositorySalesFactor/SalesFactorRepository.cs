@@ -9,5 +9,6 @@ namespace SuperMarket.Repositories.RepositorySalesFactor
     public interface SalesFactorRepository
     {
         void Add(SaleFactors salesFactor);
+        List<SaleFactors> GetAll();
     }
 }

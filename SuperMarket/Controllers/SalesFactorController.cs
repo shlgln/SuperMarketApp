@@ -5,6 +5,7 @@ using SuperMarket.Repositories.RepositoryGood;
 using SuperMarket.Repositories.RepositorySalesFactor;
 using SuperMarket.UnitOfWorks;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace SuperMarket.Controllers
@@ -47,5 +48,10 @@ namespace SuperMarket.Controllers
             _unitOfWork.Complete();
         }
 
+        [HttpGet]
+        public List<SaleFactors> GetAllSaleSFactors()
+        {
+            return _saleFactorRepository.GetAll();
+        }
     }
 }
