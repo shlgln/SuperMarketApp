@@ -1,0 +1,98 @@
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Migration.exe
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Migration.deps.json
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Migration.runtimeconfig.json
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Migration.runtimeconfig.dev.json
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Migration.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Migration.pdb
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Abstractions.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Extensions.Oracle.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Extensions.Postgres.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Extensions.SqlAnywhere.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Extensions.SqlServer.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.Core.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.Db2.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.Firebird.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.Hana.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.MySql.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.Oracle.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.Postgres.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.Redshift.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.SqlAnywhere.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.SQLite.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.SqlServer.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.SqlServerCe.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\System.Data.SqlServerCe.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\de-DE\FluentMigrator.Abstractions.resources.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.csprojAssemblyReference.cache
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.AssemblyInfoInputs.cache
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.AssemblyInfo.cs
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.csproj.CoreCompileInputs.cache
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.csproj.CopyComplete
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.dll
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.pdb
+C:\Users\ss\Desktop\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.genruntimeconfig.cache
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Migration.exe
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Migration.deps.json
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Migration.runtimeconfig.json
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Migration.runtimeconfig.dev.json
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Migration.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Migration.pdb
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Abstractions.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Extensions.Oracle.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Extensions.Postgres.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Extensions.SqlAnywhere.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Extensions.SqlServer.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.Core.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.Db2.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.Firebird.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.Hana.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.MySql.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.Oracle.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.Postgres.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.Redshift.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.SqlAnywhere.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.SQLite.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.SqlServer.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\FluentMigrator.Runner.SqlServerCe.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\System.Data.SqlServerCe.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\de-DE\FluentMigrator.Abstractions.resources.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.AssemblyInfoInputs.cache
+D:\New folder\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.AssemblyInfo.cs
+D:\New folder\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.csproj.CoreCompileInputs.cache
+D:\New folder\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.csproj.CopyComplete
+D:\New folder\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.dll
+D:\New folder\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.pdb
+D:\New folder\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.genruntimeconfig.cache
+D:\New folder\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.csprojAssemblyReference.cache
