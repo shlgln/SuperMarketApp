@@ -5857,11 +5857,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\New folder\\SuperMarketApp\\SuperMarket\\SuperMarket\\SuperMarket.csproj",
+      "projectUniqueName": "C:\\Projects\\MainSuperMarket\\SuperMarketApp\\SuperMarket\\SuperMarket\\SuperMarket.csproj",
       "projectName": "SuperMarket",
-      "projectPath": "D:\\New folder\\SuperMarketApp\\SuperMarket\\SuperMarket\\SuperMarket.csproj",
+      "projectPath": "C:\\Projects\\MainSuperMarket\\SuperMarketApp\\SuperMarket\\SuperMarket\\SuperMarket.csproj",
       "packagesPath": "C:\\Users\\ss\\.nuget\\packages\\",
-      "outputPath": "D:\\New folder\\SuperMarketApp\\SuperMarket\\SuperMarket\\obj\\",
+      "outputPath": "C:\\Projects\\MainSuperMarket\\SuperMarketApp\\SuperMarket\\SuperMarket\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

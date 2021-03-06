@@ -7,22 +7,22 @@ using System.Threading.Tasks;
 
 namespace SuperMarket.Models.EntityMapConfig
 {
-    public class SalesFactorEntityMap : IEntityTypeConfiguration<SaleFactors>
+    public class GoodEntryEntityMap : IEntityTypeConfiguration<GoodEntry>
     {
-        public void Configure(EntityTypeBuilder<SaleFactors> builder)
+        public void Configure(EntityTypeBuilder<GoodEntry> builder)
         {
             builder.HasKey(_ => _.Id);
-
             builder.Property(_ => _.Id)
                 .ValueGeneratedOnAdd();
 
             builder.Property(_ => _.GoodCode)
                 .HasMaxLength(10).IsRequired();
 
-            builder.Property(_ => _.SalesDate)
+            builder.Property(_ => _.GoodCount).IsRequired();
+
+            builder.Property(_ => _.EntryDate)
                 .HasColumnType<DateTime>("datetime");
 
-            builder.Property(_ => _.GoodCount).IsRequired();
         }
     }
 }

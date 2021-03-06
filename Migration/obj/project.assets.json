@@ -1484,11 +1484,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\New folder\\SuperMarketApp\\SuperMarket\\Migration\\Migration.csproj",
+      "projectUniqueName": "C:\\Projects\\MainSuperMarket\\SuperMarketApp\\SuperMarket\\Migration\\Migration.csproj",
       "projectName": "Migration",
-      "projectPath": "D:\\New folder\\SuperMarketApp\\SuperMarket\\Migration\\Migration.csproj",
+      "projectPath": "C:\\Projects\\MainSuperMarket\\SuperMarketApp\\SuperMarket\\Migration\\Migration.csproj",
       "packagesPath": "C:\\Users\\ss\\.nuget\\packages\\",
-      "outputPath": "D:\\New folder\\SuperMarketApp\\SuperMarket\\Migration\\obj\\",
+      "outputPath": "C:\\Projects\\MainSuperMarket\\SuperMarketApp\\SuperMarket\\Migration\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

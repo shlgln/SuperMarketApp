@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oD9fBc9xZCyQnfSYRaCIGRHujcjUsTd5I9sGU5qJUSOGBoVXs8D/TGj24Rfbgtm9cM8tmvaxjVunNIyi74Yn7w==",
+  "dgSpecHash": "hWHtKDe6/ohGROzzfk0p2cLEftgVrJLZEPio67DDwwO2r9KYG92ox2hrKt0m2HDcU49lrCqpduuBtq8cVNIdGQ==",
   "success": true,
-  "projectFilePath": "D:\\New folder\\SuperMarketApp\\SuperMarket\\Migration\\Migration.csproj",
+  "projectFilePath": "C:\\Projects\\MainSuperMarket\\SuperMarketApp\\SuperMarket\\Migration\\Migration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ss\\.nuget\\packages\\fluentmigrator\\3.2.15\\fluentmigrator.3.2.15.nupkg.sha512",
     "C:\\Users\\ss\\.nuget\\packages\\fluentmigrator.abstractions\\3.2.15\\fluentmigrator.abstractions.3.2.15.nupkg.sha512",
