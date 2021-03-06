@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace SuperMarket.Models.EntityMapConfig
 {
-    public class SalesFactorEntityMap : IEntityTypeConfiguration<SaleFactors>
+    public class SalesFactorEntityMap : IEntityTypeConfiguration<GetSalesFactorDtors>
     {
-        public void Configure(EntityTypeBuilder<SaleFactors> builder)
+        public void Configure(EntityTypeBuilder<GetSalesFactorDtors> builder)
         {
             builder.HasKey(_ => _.Id);
 

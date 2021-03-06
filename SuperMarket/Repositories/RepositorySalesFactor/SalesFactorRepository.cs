@@ -1,4 +1,5 @@
 ﻿using SuperMarket.Models;
+using SuperMarket.Models.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,8 @@ namespace SuperMarket.Repositories.RepositorySalesFactor
 {
     public interface SalesFactorRepository
     {
-        void Add(SaleFactors salesFactor);
-        List<SaleFactors> GetAll();
+        void Add(AddSalesFactorDto salesFactor);
+
+        List<GetSalesFactorDto> GetAll();
     }
 }

@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SuperMarket.Models
+namespace SuperMarket.Models.Dtos
 {
-    public class GetSalesFactorDtors
+    public class GetSalesFactorDto
     {
         public int Id { get; set; }
+        public string Title { get; set; }
         public string GoodCode { get; set; }
-        public DateTime SalesDate { get; set; }
         public int GoodCount { get; set; }
+        public DateTime SaleDate { get; set; }
     }
 }

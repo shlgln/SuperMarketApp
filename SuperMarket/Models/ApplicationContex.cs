@@ -32,6 +32,6 @@ namespace SuperMarket.Models
         public DbSet<GoodCategory> GoodCategories { get; set; }
         public DbSet<Good> Goods { get; set; }
         public DbSet<GoodEntry> GoodEntries { get; set; }
-        public DbSet<SaleFactors> SaleFactors { get; set; }
+        public DbSet<GetSalesFactorDtors> SaleFactors { get; set; }
     }
 }

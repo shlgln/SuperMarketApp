@@ -6,7 +6,6 @@ using SuperMarket.Repositories.RepositorySalesFactor;
 using SuperMarket.UnitOfWorks;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace SuperMarket.Controllers
 {
@@ -37,10 +36,10 @@ namespace SuperMarket.Controllers
             if (good.Count < dto.GoodCount)
                 throw new Exception();
 
-            var salesFactor = new SaleFactors
+            var salesFactor = new AddSalesFactorDto
             {
                 GoodCount = dto.GoodCount,
-                SalesDate = DateTime.Now,
+                SaleDate = DateTime.Now,
                 GoodCode = dto.GoodCode
             };
             good.Count -= dto.GoodCount;
@@ -49,7 +48,7 @@ namespace SuperMarket.Controllers
         }
 
         [HttpGet]
-        public List<SaleFactors> GetAllSaleSFactors()
+        public List<GetSalesFactorDto> GetAllSaleSFactors()
         {
             return _saleFactorRepository.GetAll();
         }
