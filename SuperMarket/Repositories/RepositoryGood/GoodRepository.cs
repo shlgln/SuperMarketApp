@@ -1,5 +1,5 @@
-﻿using SuperMarket.Models;
-using SuperMarket.Models.Dtos;
+﻿using SuperMarket.Models.Dtos.GoodDto;
+using SuperMarket.Models.Entities;
 using System.Collections.Generic;
 
 namespace SuperMarket.Repositories.RepositoryGood

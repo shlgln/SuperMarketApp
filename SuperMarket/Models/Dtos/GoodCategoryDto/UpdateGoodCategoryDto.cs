@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SuperMarket.Models.Dtos
+namespace SuperMarket.Models.Dtos.GoodCategoryDto
 {
-    public class GetGoodCategoryDto
+    public class UpdateGoodCategoryDto
     {
-        public int Id { get; set; }
         public string Title { get; set; }
-        public List<string> goods { get; set; }
     }
 }

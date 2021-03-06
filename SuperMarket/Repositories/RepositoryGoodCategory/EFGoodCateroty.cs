@@ -1,5 +1,8 @@
 ﻿using SuperMarket.Models;
+using SuperMarket.Models.DBContext;
 using SuperMarket.Models.Dtos;
+using SuperMarket.Models.Dtos.GoodCategoryDto;
+using SuperMarket.Models.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

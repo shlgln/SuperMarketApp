@@ -1,4 +1,4 @@
-﻿namespace SuperMarket.Models.Dtos
+﻿namespace SuperMarket.Models.Dtos.GoodDto
 {
     public class GetGoodDto
     {

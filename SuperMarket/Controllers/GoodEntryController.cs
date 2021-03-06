@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SuperMarket.Models;
-using SuperMarket.Models.Dtos;
+using SuperMarket.Models.Dtos.GoodEntryDto;
+using SuperMarket.Models.Entities;
 using SuperMarket.Repositories.RepositoryGood;
 using SuperMarket.Repositories.RepositoryGoodEntry;
 using SuperMarket.UnitOfWorks;
@@ -43,7 +43,7 @@ namespace SuperMarket.Controllers
         }
 
         [HttpGet]
-        public List<GoodEntryDto> GetAll()
+        public List<GetGoodEntryDto> GetAll()
         {
             return _goodEntryRepository.GetAllGoodEntry();
             

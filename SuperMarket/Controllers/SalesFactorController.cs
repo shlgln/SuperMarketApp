@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SuperMarket.Models;
-using SuperMarket.Models.Dtos;
+using SuperMarket.Models.Dtos.SalesFactorDto;
 using SuperMarket.Repositories.RepositoryGood;
 using SuperMarket.Repositories.RepositorySalesFactor;
 using SuperMarket.UnitOfWorks;

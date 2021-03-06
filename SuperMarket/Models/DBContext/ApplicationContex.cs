@@ -1,13 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.SqlServer;
-using SuperMarket.Models.EntityMapConfig;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using SuperMarket.Models.Entities;
 using System.Reflection;
-using System.Threading.Tasks;
 
-namespace SuperMarket.Models
+namespace SuperMarket.Models.DBContext
 {
     public class ApplicationContex : DbContext
     {

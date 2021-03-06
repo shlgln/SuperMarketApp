@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SuperMarket.Models;
-using SuperMarket.Models.Dtos;
+using SuperMarket.Models.Dtos.GoodCategoryDto;
+using SuperMarket.Models.Entities;
 using SuperMarket.Models.Exceptions;
 using SuperMarket.Repositories.RepositoryGoodCategory;
 using SuperMarket.UnitOfWorks;

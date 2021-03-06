@@ -1,9 +1,8 @@
-﻿using SuperMarket.Models;
-using SuperMarket.Models.Dtos;
-using System;
+﻿using SuperMarket.Models.DBContext;
+using SuperMarket.Models.Dtos.GoodEntryDto;
+using SuperMarket.Models.Entities;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace SuperMarket.Repositories.RepositoryGoodEntry
 {
@@ -19,12 +18,12 @@ namespace SuperMarket.Repositories.RepositoryGoodEntry
             _context.Add(goodEntry);
         }
 
-        public List<GoodEntryDto> GetAllGoodEntry()
+        public List<GetGoodEntryDto> GetAllGoodEntry()
         {
             var query = from a in _context.GoodEntries
                         join p in _context.Goods on a.GoodCode equals p.Code
                         join c in _context.GoodCategories on p.CategoryId equals c.Id
-                        select new GoodEntryDto
+                        select new GetGoodEntryDto
                         {
                             Id = a.Id,
                             GoodTitle = p.Title,
