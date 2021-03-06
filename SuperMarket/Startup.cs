@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using SuperMarket.Models;
+using SuperMarket.Models.DBContext;
 using SuperMarket.Repositories.RepositoryGood;
 using SuperMarket.Repositories.RepositoryGoodCategory;
 using SuperMarket.Repositories.RepositoryGoodEntry;

@@ -36,14 +36,14 @@ namespace SuperMarket.Repositories.RepositoryGoodCategory
             //          Id = _.Id,
             //          Title = _.Title
             //      }).ToList();
-            var query = from a in _context.GoodCategories
-                        join p in _context.Goods on a.Id equals p.CategoryId
-                        where p.Id == p.CategoryId
+            var query = from a in _context.Goods
+                        join p in _context.GoodCategories on a.CategoryId equals p.Id
+                        where p.Id == a.CategoryId
                         select new GetGoodCategoryDto
                         {
                             Id = a.Id,
-                            Title = a.Title,
-                            goods =a.Goods.Select(m=>m.Title).ToList(),
+                            Title = p.Title,
+                            goods =p.Goods.Select(m=>m.Title).ToList(),
                         };            
            
 

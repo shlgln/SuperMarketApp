@@ -30,7 +30,7 @@ namespace SuperMarket.Controllers
             var good = _goodRepository.GetGoodByCode(dto.GoodCode);
 
             if (good == null)
-                throw new Exception();
+                throw new AddGoodEntryException();
             var goodEntry = new GoodEntry
             {
                 GoodCount = dto.GoodCount,
