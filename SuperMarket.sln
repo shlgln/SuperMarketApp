@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperMarket", "SuperMarket\SuperMarket.csproj", "{34C114F4-D66D-48DE-8CEF-B3EBB2E6EBD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migration", "Migration\Migration.csproj", "{B82F8295-7340-47B4-BC1D-A435ECEAC9CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Migration", "Migration\Migration.csproj", "{B82F8295-7340-47B4-BC1D-A435ECEAC9CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise", "Exercise\Exercise.csproj", "{7BCC271D-7213-43B5-AA87-2BF48B653B31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B82F8295-7340-47B4-BC1D-A435ECEAC9CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B82F8295-7340-47B4-BC1D-A435ECEAC9CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B82F8295-7340-47B4-BC1D-A435ECEAC9CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BCC271D-7213-43B5-AA87-2BF48B653B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BCC271D-7213-43B5-AA87-2BF48B653B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BCC271D-7213-43B5-AA87-2BF48B653B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BCC271D-7213-43B5-AA87-2BF48B653B31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

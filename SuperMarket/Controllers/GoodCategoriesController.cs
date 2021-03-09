@@ -1,9 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SuperMarket.Models.Dtos.GoodCategoryDto;
-using SuperMarket.Models.Entities;
-using SuperMarket.Models.Exceptions;
-using SuperMarket.Repositories.RepositoryGoodCategory;
-using SuperMarket.UnitOfWorks;
+using SuperMarket.Services.GoodCategoryServices;
 using System.Collections.Generic;
 
 namespace SuperMarket.Controllers
@@ -12,51 +9,34 @@ namespace SuperMarket.Controllers
     [Route("api/good-categories")]
     public class GoodCategoriesController : Controller
     {
-        private readonly GoodCategoryRepository _goodCategoryRepository;
-        private readonly UnitOfWork _unitOfWork;
-
-        public GoodCategoriesController(GoodCategoryRepository goodCategoryRepository, UnitOfWork unitOfWork)
+        private readonly GoodCategoryService service;
+        public GoodCategoriesController(GoodCategoryService service)
         {
-            _goodCategoryRepository = goodCategoryRepository;
-            _unitOfWork = unitOfWork;
+            this.service = service;
         }
 
         [HttpPost]
-        public void Add([FromBody]string Title)
+        public void Add(string Title)
         {
-            if(_goodCategoryRepository.GoodCaterotyDublicate(Title))
-            {
-                throw new GoodCategoryTitleCantBeDuplicatedExcption();
-            }
-
-            var goodCategory = new GoodCategory
-            {
-                Title = Title
-            };
-
-            _goodCategoryRepository.Add(goodCategory);
-            _unitOfWork.Complete();
+            service.AddGoodCategory(Title);
         }
 
         [HttpGet]
         public IList<GetGoodCategoryDto> GetAll()
         {
-            return _goodCategoryRepository.GetAll();
+            return service.GetAllGategories();
         }
 
         [HttpPut("{id}")]
         public void Update(int id, UpdateGoodCategoryDto dto)
         {
-            _goodCategoryRepository.UpdateGoodCategory(id, dto);
-            _unitOfWork.Complete();
+            service.UpdateGoodCategory(id, dto);
         }
 
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-            _goodCategoryRepository.DeleteGoodCategory(id);
-
-            _unitOfWork.Complete();
+            service.DeleteGoodCategory(id);
         }
     }
 }

@@ -6,10 +6,10 @@ namespace SuperMarket.Repositories.RepositoryGoodCategory
 {
     public interface GoodCategoryRepository
     {
-        public bool GoodCaterotyDublicate(string Title);
-        void Add(GoodCategory goodCategory);
-        IList<GetGoodCategoryDto> GetAll();
+        void AddGoodCategory(string Title);
+        IList<GetGoodCategoryDto> GetAllGategories();
         void DeleteGoodCategory(int id);
-        void UpdateGoodCategory(int id, UpdateGoodCategoryDto dto);
+        bool GoodCaterotyDublicate(string Title);
+        GoodCategory GetCategory(int id);
     }
 }

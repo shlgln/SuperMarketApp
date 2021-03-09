@@ -1,9 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SuperMarket.Models.Dtos.SalesFactorDto;
-using SuperMarket.Repositories.RepositoryGood;
-using SuperMarket.Repositories.RepositorySalesFactor;
-using SuperMarket.UnitOfWorks;
-using System;
+using SuperMarket.Services.SelesFactorServices;
 using System.Collections.Generic;
 
 namespace SuperMarket.Controllers
@@ -12,44 +9,22 @@ namespace SuperMarket.Controllers
     [Route("api/sale-factor")]
     public class SalesFactorController : Controller
     {
-        private readonly UnitOfWork _unitOfWork;
-        private readonly SalesFactorRepository _saleFactorRepository;
-        private readonly GoodRepository _goodRepository;
-
-
-        public SalesFactorController(UnitOfWork unitOfWork, SalesFactorRepository salesFactorRepository, GoodRepository goodRepository)
+        private readonly SalesFactorService _salesFactorService;
+        public SalesFactorController(SalesFactorService salesFactorService)
         {
-            _unitOfWork = unitOfWork;
-            _saleFactorRepository = salesFactorRepository;
-            _goodRepository = goodRepository;
+            _salesFactorService = salesFactorService;
         }
 
         [HttpPost]
         public void AddSalesFacror([FromBody] AddSalesFactorDto dto)
         {
-            var good = _goodRepository.GetGoodByCode(dto.GoodCode);
-
-            if (good == null)
-                throw new Exception();
-
-            if (good.Count < dto.GoodCount)
-                throw new Exception();
-
-            var salesFactor = new AddSalesFactorDto
-            {
-                GoodCount = dto.GoodCount,
-                SaleDate = DateTime.Now,
-                GoodCode = dto.GoodCode
-            };
-            good.Count -= dto.GoodCount;
-            _saleFactorRepository.Add(salesFactor);
-            _unitOfWork.Complete();
+            _salesFactorService.Add(dto);
         }
 
         [HttpGet]
-        public List<GetSalesFactorDto> GetAllSaleSFactors()
+        public IList<GetSalesFactorDto> GetAllSaleSFactors()
         {
-            return _saleFactorRepository.GetAll();
+            return _salesFactorService.GetAll();
         }
     }
 }

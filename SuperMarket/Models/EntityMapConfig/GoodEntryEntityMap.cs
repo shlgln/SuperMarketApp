@@ -21,6 +21,8 @@ namespace SuperMarket.Models.EntityMapConfig
             builder.Property(_ => _.EntryDate)
                 .HasColumnType<DateTime>("datetime");
 
+
+
         }
     }
 }

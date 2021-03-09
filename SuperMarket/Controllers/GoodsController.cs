@@ -1,9 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SuperMarket.Models.Dtos.GoodDto;
-using SuperMarket.Models.Entities;
-using SuperMarket.Models.Exceptions;
-using SuperMarket.Repositories.RepositoryGood;
-using SuperMarket.UnitOfWorks;
+using SuperMarket.Services.GoodServices;
 using System.Collections.Generic;
 
 namespace SuperMarket.Controllers
@@ -11,38 +8,22 @@ namespace SuperMarket.Controllers
     [ApiController,Route("api/goods")]
     public class GoodsController : Controller
     {
-        private readonly UnitOfWork _unitOfWork;
-        private readonly GoodRepository _goodRepository;
-        public GoodsController(UnitOfWork unitOf, GoodRepository goodRepository)
+        private readonly GoodService _goodService;
+        public GoodsController(GoodService goodService)
         {
-            _unitOfWork = unitOf;
-            _goodRepository = goodRepository;
+            _goodService = goodService;
         }
 
         [HttpPost]
-        public void Add([FromBody]AddGoodDto dto)
+        public void Add(AddGoodDto dto)
         {
-            if(_goodRepository.IsGoodCount(dto.Code))
-            {
-                throw new GoodCodeCantBeDuplicateException();
-            }
-
-            var good = new Good
-            {
-                Title = dto.Title,
-                Code = dto.Code,
-                Count = 0,
-                CategoryId = dto.CategoryId
-            };
-
-           _goodRepository.Add(good);
-            _unitOfWork.Complete();
+            _goodService.AddGood(dto);
         }
 
         [HttpGet]
-        public List<GetGoodDto> GetAll()
+        public IList<GetGoodDto> GetAll()
         {
-            return _goodRepository.GetAllGoods();
+            return _goodService.GetAllGoods();
         }
     }
 }

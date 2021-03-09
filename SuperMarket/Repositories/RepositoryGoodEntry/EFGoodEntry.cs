@@ -1,6 +1,7 @@
 ﻿using SuperMarket.Models.DBContext;
 using SuperMarket.Models.Dtos.GoodEntryDto;
 using SuperMarket.Models.Entities;
+using SuperMarket.Repositories.RepositoryGood;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -9,11 +10,15 @@ namespace SuperMarket.Repositories.RepositoryGoodEntry
     public class EFGoodEntry : GoodEntryRepository
     {
         private readonly ApplicationContex _context;
-        public EFGoodEntry(ApplicationContex context)
+        private readonly GoodRepository _goodRepository;
+
+        public EFGoodEntry(ApplicationContex context, GoodRepository goodRepository)
         {
             _context = context;
+            _goodRepository = goodRepository;
         }
-        public void Add(GoodEntry goodEntry)
+
+        public void AddGoodEntry(GoodEntry goodEntry)
         {
             _context.Add(goodEntry);
         }

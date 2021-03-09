@@ -8,6 +8,10 @@ using SuperMarket.Repositories.RepositoryGood;
 using SuperMarket.Repositories.RepositoryGoodCategory;
 using SuperMarket.Repositories.RepositoryGoodEntry;
 using SuperMarket.Repositories.RepositorySalesFactor;
+using SuperMarket.Services.GoodCategoryServices;
+using SuperMarket.Services.GoodEntryServices;
+using SuperMarket.Services.GoodServices;
+using SuperMarket.Services.SelesFactorServices;
 using SuperMarket.UnitOfWorks;
 
 namespace SuperMarket
@@ -27,11 +31,15 @@ namespace SuperMarket
             services.AddControllers();
             services.AddSwaggerGen();
             services.AddScoped<ApplicationContex>();
+            services.AddScoped<GoodCategoryService, AppGoodCategoryService>();
             services.AddScoped<GoodCategoryRepository, EFGoodCateroty>();
-            services.AddScoped<UnitOfWork, EFUnitOfWork>();
-            services.AddScoped<GoodRepository, EFGood>();
-            services.AddScoped<SalesFactorRepository, EFSalesFactor>();
+            services.AddScoped<GoodService, AppGoodService>();
+            services.AddScoped<GoodRepository, EFGoodRepository>();
+            services.AddScoped<SalesFactorService, AppSalesFactorService>();
+            services.AddScoped<SalesFactorRepository, EFSalesFactor >();
+            services.AddScoped<GoodEntryService, AppGoodEntryService>();
             services.AddScoped<GoodEntryRepository, EFGoodEntry>();
+            services.AddScoped<UnitOfWork, EFUnitOfWork>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

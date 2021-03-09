@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace SuperMarket.UnitOfWorks
+﻿namespace SuperMarket.UnitOfWorks
 {
     public interface UnitOfWork
     {

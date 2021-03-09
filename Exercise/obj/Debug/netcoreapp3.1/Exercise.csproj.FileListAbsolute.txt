@@ -1,0 +1,13 @@
+C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Exercise\bin\Debug\netcoreapp3.1\Exercise.exe
+C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Exercise\bin\Debug\netcoreapp3.1\Exercise.deps.json
+C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Exercise\bin\Debug\netcoreapp3.1\Exercise.runtimeconfig.json
+C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Exercise\bin\Debug\netcoreapp3.1\Exercise.runtimeconfig.dev.json
+C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Exercise\bin\Debug\netcoreapp3.1\Exercise.dll
+C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Exercise\bin\Debug\netcoreapp3.1\Exercise.pdb
+C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Exercise\obj\Debug\netcoreapp3.1\Exercise.csprojAssemblyReference.cache
+C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Exercise\obj\Debug\netcoreapp3.1\Exercise.AssemblyInfoInputs.cache
+C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Exercise\obj\Debug\netcoreapp3.1\Exercise.AssemblyInfo.cs
+C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Exercise\obj\Debug\netcoreapp3.1\Exercise.csproj.CoreCompileInputs.cache
+C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Exercise\obj\Debug\netcoreapp3.1\Exercise.dll
+C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Exercise\obj\Debug\netcoreapp3.1\Exercise.pdb
+C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Exercise\obj\Debug\netcoreapp3.1\Exercise.genruntimeconfig.cache

@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-
-namespace SuperMarket.Models.Entities
+﻿namespace SuperMarket.Models.Entities
 {
     public class Good
     {

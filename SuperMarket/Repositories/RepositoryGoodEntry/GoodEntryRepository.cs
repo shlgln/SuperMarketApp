@@ -6,7 +6,7 @@ namespace SuperMarket.Repositories.RepositoryGoodEntry
 {
     public interface GoodEntryRepository
     {
-        void Add(GoodEntry goodEntry);
+        void AddGoodEntry(GoodEntry goodEntry);
         List<GetGoodEntryDto> GetAllGoodEntry();
     }
 }

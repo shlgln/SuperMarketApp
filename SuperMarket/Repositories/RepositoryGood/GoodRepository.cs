@@ -6,11 +6,11 @@ namespace SuperMarket.Repositories.RepositoryGood
 {
     public interface GoodRepository
     {
-        Good GetGoodByCode(string code);
-        bool IsGoodCount(string code); 
-        int GetGoodCount(string code);
-        void Add(Good good);
+        void AddGood(Good good);
         List<GetGoodDto> GetAllGoods();
+        bool IsGoodCode(string code);
+        bool IsGoodsExistsByCode(string code);
+        Good GetGoodByCode(string code);
     }
 }
  

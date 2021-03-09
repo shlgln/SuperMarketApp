@@ -1,51 +1,30 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SuperMarket.Models.Dtos.GoodEntryDto;
-using SuperMarket.Models.Entities;
-using SuperMarket.Repositories.RepositoryGood;
-using SuperMarket.Repositories.RepositoryGoodEntry;
-using SuperMarket.UnitOfWorks;
-using System;
+using SuperMarket.Services.GoodEntryServices;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace SuperMarket.Controllers
 {
     [ApiController, Route("api/goodsEntry")]
     public class GoodEntryController : Controller
     {
-        private readonly UnitOfWork _unitOfWork;
-        private readonly GoodEntryRepository _goodEntryRepository;
+        private readonly GoodEntryService _service;
 
-        private readonly GoodRepository _goodRepository;
-
-        public GoodEntryController(UnitOfWork unitOfWork, GoodEntryRepository goodEntryRepository)
+        public GoodEntryController(GoodEntryService service)
         {
-            _unitOfWork = unitOfWork;
-            _goodEntryRepository = goodEntryRepository;
+            _service = service;
         }
 
         [HttpPost]
         public void AddGoodEntry([FromBody]AddGoodEntryDto dto)
         {
-            var good = _goodRepository.GetGoodByCode(dto.GoodCode);
-
-            if (good == null)
-                throw new AddGoodEntryException();
-            var goodEntry = new GoodEntry
-            {
-                GoodCount = dto.GoodCount,
-                EntryDate = DateTime.Now,
-                GoodCode = dto.GoodCode
-            };
-            good.Count += dto.GoodCount;
-            _goodEntryRepository.Add(goodEntry);
-            _unitOfWork.Complete();
+            _service.AddGoodEntry(dto);
         }
 
         [HttpGet]
-        public List<GetGoodEntryDto> GetAll()
+        public IList<GetGoodEntryDto> GetAll()
         {
-            return _goodEntryRepository.GetAllGoodEntry();
+            return _service.GetAllGoodEntry();
             
         }
     }

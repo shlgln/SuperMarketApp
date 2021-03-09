@@ -6,19 +6,24 @@ using System.Linq;
 
 namespace SuperMarket.Repositories.RepositoryGood
 {
-    public class EFGood : GoodRepository
+    public class EFGoodRepository : GoodRepository
     {
         private readonly ApplicationContex _context;
-        public EFGood(ApplicationContex contex)
+
+        public EFGoodRepository(ApplicationContex contex)
         {
             _context = contex;
         }
 
-        public void Add(Good good)
+        public void AddGood(Good good)
         {
             _context.Add(good);
         }
 
+        public bool IsGoodCode(string code)
+        {
+            return _context.Goods.Any(_ => _.Code == code);
+        }
         public List<GetGoodDto> GetAllGoods()
         {
             return _context.Goods.Select
@@ -31,18 +36,12 @@ namespace SuperMarket.Repositories.RepositoryGood
 
                 }).ToList();
         }
-
         public Good GetGoodByCode(string code)
         {
-            return _context.Goods.Where(g => g.Code == code).FirstOrDefault();
+            return _context.Goods.Find(code);
         }
 
-        public int GetGoodCount(string code)
-        {
-            return _context.Goods.SingleOrDefault().Count;
-
-        }
-        public bool IsGoodCount(string code)
+        public bool IsGoodsExistsByCode(string code)
         {
             return _context.Goods.Any(_ => _.Code == code);
         }
