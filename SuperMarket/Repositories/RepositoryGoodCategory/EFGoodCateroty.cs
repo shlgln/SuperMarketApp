@@ -1,4 +1,5 @@
-﻿using SuperMarket.Models.DBContext;
+﻿using Microsoft.EntityFrameworkCore;
+using SuperMarket.Models.DBContext;
 using SuperMarket.Models.Dtos.GoodCategoryDto;
 using SuperMarket.Models.Entities;
 using System.Collections.Generic;
@@ -15,9 +16,9 @@ namespace SuperMarket.Repositories.RepositoryGoodCategory
             _context = context;
         }
 
-        public void AddGoodCategory(string Title)
+        public void AddGoodCategory(GoodCategory goodCategory)
         {
-            _context.Add(Title);
+            _context.Add(goodCategory);
         }
         public bool GoodCaterotyDublicate(string Title)
         {
@@ -26,15 +27,13 @@ namespace SuperMarket.Repositories.RepositoryGoodCategory
 
         public IList<GetGoodCategoryDto> GetAllGategories()
         {
-            var query = from a in _context.Goods
-                        join p in _context.GoodCategories on a.CategoryId equals p.Id
-                        where p.Id == a.CategoryId
+            var query = from p in _context.GoodCategories
                         select new GetGoodCategoryDto
                         {
-                            Id = a.Id,
+                            Id = p.Id,
                             Title = p.Title,
-                            goods =p.Goods.Select(m=>m.Title).ToList(),
-                        };  
+                            goods = p.Goods.Select(m => m.Title).ToList(),
+                        };
             return query.ToList();
         }
         public void DeleteGoodCategory(int id)

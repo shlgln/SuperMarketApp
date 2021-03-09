@@ -137,7 +137,6 @@ C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Migration\bin\Debug\netco
 C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
 C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Migration\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
-C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.csprojAssemblyReference.cache
 C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.AssemblyInfoInputs.cache
 C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.AssemblyInfo.cs
 C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.csproj.CoreCompileInputs.cache
@@ -145,3 +144,4 @@ C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Migration\obj\Debug\netco
 C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.dll
 C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.pdb
 C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.genruntimeconfig.cache
+C:\Projects\MainSuperMarket\SuperMarketApp\SuperMarket\Migration\obj\Debug\netcoreapp3.1\Migration.csprojAssemblyReference.cache

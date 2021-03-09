@@ -29,7 +29,7 @@ namespace SuperMarket.Services.GoodCategoryServices
                 Title = Title
             };
 
-            repository.AddGoodCategory(Title);
+            repository.AddGoodCategory(goodCategory);
             unitOfWork.Complete();
         }
         private bool GoodCaterotyDublicate(string Title)
