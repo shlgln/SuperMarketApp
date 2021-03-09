@@ -8,5 +8,6 @@ namespace SuperMarket.Services.GoodServices
         void AddGood(AddGoodDto dto);
         bool IsGoodCode(string code);
         IList<GetGoodDto> GetAllGoods();
+        void UpdateGoodInfo(UpdateGoodDto dto, int id);
     }
 }

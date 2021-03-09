@@ -8,9 +8,9 @@ namespace SuperMarket.Repositories.RepositoryGood
     {
         void AddGood(Good good);
         List<GetGoodDto> GetAllGoods();
-        bool IsGoodCode(string code);
         bool IsGoodsExistsByCode(string code);
         Good GetGoodByCode(string code);
+        Good GetGoodById(int id);
     }
 }
  

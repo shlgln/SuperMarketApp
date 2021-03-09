@@ -20,10 +20,6 @@ namespace SuperMarket.Repositories.RepositoryGood
             _context.Add(good);
         }
 
-        public bool IsGoodCode(string code)
-        {
-            return _context.Goods.Any(_ => _.Code == code);
-        }
         public List<GetGoodDto> GetAllGoods()
         {
             return _context.Goods.Select
@@ -41,9 +37,15 @@ namespace SuperMarket.Repositories.RepositoryGood
             return _context.Goods.Find(code);
         }
 
+        public Good GetGoodById(int id)
+        {
+            return _context.Goods.Find(id);
+        }
+
         public bool IsGoodsExistsByCode(string code)
         {
             return _context.Goods.Any(_ => _.Code == code);
         }
+
     }
 }

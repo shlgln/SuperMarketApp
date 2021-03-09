@@ -25,5 +25,11 @@ namespace SuperMarket.Controllers
         {
             return _goodService.GetAllGoods();
         }
+
+        [HttpPut]
+        public void UpdateGoodInfo(UpdateGoodDto dto, int id)
+        {
+            _goodService.UpdateGoodInfo(dto, id);
+        }
     }
 }

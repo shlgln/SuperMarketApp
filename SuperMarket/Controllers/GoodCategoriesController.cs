@@ -27,13 +27,13 @@ namespace SuperMarket.Controllers
             return service.GetAllGategories();
         }
 
-        [HttpPut("{id}")]
+        [HttpPut]
         public void Update(int id, UpdateGoodCategoryDto dto)
         {
             service.UpdateGoodCategory(id, dto);
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete]
         public void Delete(int id)
         {
             service.DeleteGoodCategory(id);

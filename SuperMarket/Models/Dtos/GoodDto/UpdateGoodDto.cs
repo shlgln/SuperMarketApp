@@ -5,11 +5,10 @@ using System.Threading.Tasks;
 
 namespace SuperMarket.Models.Dtos.GoodDto
 {
-    public class AddGoodDto
+    public class UpdateGoodDto
     {
-        public string Code { get; set; }
         public string Title { get; set; }
-        public int CategoryId { get; set; }
+        public int Count { get; set; }
         public int Price { get; set; }
     }
 }
